@@ -7,17 +7,6 @@ import TodoItem from '../../components/TodoItem';
 import Header from '../../components/Header';
 
 function List({ navigation, list }) {
-  const data = [
-    { id: '1', name: 'Hoej irei ao mercado', status: true },
-    { id: '2', name: 'Hoje irei pra faculdade', status: false },
-    { id: '3', name: 'Amanhã irei para a aula de pedro', status: true },
-    { id: '4', name: 'Amanhã irei para a aula de pedro', status: true },
-    { id: '5', name: 'Amanhã irei para a aula de pedro', status: true },
-    { id: '6', name: 'Amanhã irei para a aula de pedro', status: true },
-    { id: '7', name: 'Amanhã irei para a aula de pedro', status: true },
-    { id: '8', name: 'Amanhã irei para a aula de pedro', status: true },
-  ];
-
   return (
     <View style={{ backgroundColor: '#2f3437' }}>
       <Header />
@@ -27,6 +16,7 @@ function List({ navigation, list }) {
           width: 400,
           height: 450,
           right: 8,
+          paddingHorizontal: 40,
           alignSelf: 'center',
         }}
         animation="bounceInUp"
@@ -38,7 +28,7 @@ function List({ navigation, list }) {
           renderItem={({ item }) => (
             <TodoItem item={item} navigation={navigation} />
           )}
-          keyExtractor={(item) => String(item.id)}
+          keyExtractor={(item) => String(item.todo.id)}
         />
       </Animatable.View>
       <View
@@ -60,7 +50,7 @@ function List({ navigation, list }) {
         >
           <TouchableOpacity
             onPress={() => {
-              navigation.navigate('Form');
+              navigation.navigate('Form', { edited: false });
             }}
             style={{
               position: 'absolute',

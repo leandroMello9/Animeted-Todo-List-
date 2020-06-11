@@ -22,6 +22,34 @@ export default function user(state = INITIAL_STATE, action) {
 
         break;
       }
+      case 'FAVORITE/TODO': {
+        const l = draft.todo.findIndex(
+          (element) => element.todo.id === action.payload.todo.id
+        );
+        if (draft.todo[l].todo.status) {
+          draft.todo[l].todo.status = false;
+        } else {
+          draft.todo[l].todo.status = true;
+        }
+        break;
+      }
+      case 'UPDATED/TODO': {
+        const { newTodo, oldId } = action.payload;
+        const todo = {
+          todo: {
+            ...newTodo,
+          },
+        };
+
+        const a = draft.todo.findIndex((element) => element.todo.id === oldId);
+
+        if (a < 0) {
+          break;
+        } else {
+          draft.todo[a] = todo;
+        }
+        break;
+      }
 
       default:
         return state;

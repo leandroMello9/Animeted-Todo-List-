@@ -17,14 +17,16 @@ export default function Button({
   borderRadius,
   rigth,
   left,
+  marginRigth,
 }) {
   return (
     <View
       style={{
-        width: '33%',
+        flex: 1,
 
         height: 80,
         marginTop: 80,
+
         right: rigth,
         left,
         justifyContent: 'space-around',
@@ -33,18 +35,18 @@ export default function Button({
       <TouchableOpacity
         onPress={onPress}
         style={{
-          backgroundColor,
+          backgroundColor: '#3b4145',
           borderRadius,
+          marginRigth,
           width,
-          height,
+          height: 100,
         }}
       >
-        <View style={{ alignItems: 'center' }}>
+        <View>
           <View
             style={{
-              alignSelf: 'center',
               height,
-              justifyContent: center ? 'center' : 'flex-start',
+              left: 8,
             }}
           >
             <MaterialIcons name={iconName} color={iconColor} size={iconSize} />
@@ -52,11 +54,12 @@ export default function Button({
           <Text
             style={{
               width: 200,
-              paddingHorizontal: 35,
+
               fontSize: 13,
-              left: center ? 40 : 15,
+              left: 8,
+              marginTop: 45,
               bottom: 25,
-              alignSelf: 'center',
+              alignSelf: 'flex-start',
               color: labelColor,
             }}
             numberOfLines={2}

@@ -66,7 +66,14 @@ function InfoItem({ route, navigation, deleteTodo }) {
             --- {todo.name}
           </Text>
           <Text style={{ color: '#ebebeb' }}>Data: {dateFormated}</Text>
-          <Text style={{ width: 100, top: 3, color: '#ebebeb' }}>
+          <Text
+            style={{
+              width: 300,
+              textAlign: 'center',
+              top: 3,
+              color: '#ebebeb',
+            }}
+          >
             {' '}
             --- {todo.description}
           </Text>
@@ -109,42 +116,43 @@ function InfoItem({ route, navigation, deleteTodo }) {
         delay={500}
         useNativeDriver
         animation="bounceInLeft"
-        style={{ flexDirection: 'row', backgroundColor: '#2f3437' }}
+        style={{
+          flexDirection: 'row',
+          flex: 1,
+          left: 4.5,
+
+          justifyContent: 'space-between',
+        }}
       >
         <ButtonComponent
-          left={5}
-          rigth={0}
           backgroundColor="#BAC5D1"
-          width={115}
+          width={108}
           height={50}
           iconSize={25}
           borderRadius={4}
+          onPress={() => navigation.navigate('Form', { item, edited: true })}
           label="Atualizar tarefa"
           labelColor="#fff"
           iconName="create"
           iconColor="#fff"
         />
         <ButtonComponent
-          left={5}
-          rigth={2}
           backgroundColor="#00ff80"
           iconSize={25}
-          width={115}
+          width={108}
           height={50}
           borderRadius={4}
-          label="      Nova tarefa"
-          onPress={() => navigation.navigate('Form')}
+          label="Nova tarefa"
+          onPress={() => navigation.navigate('Form', { edited: false })}
           iconColor="#fff"
           iconName="add"
           labelColor="#fff"
         />
 
         <ButtonComponent
-          left={5}
-          rigth={0}
           backgroundColor="#ff5b52"
           iconSize={25}
-          width={115}
+          width={108}
           height={50}
           borderRadius={4}
           label="Remover tarefa"
@@ -170,17 +178,17 @@ function InfoItem({ route, navigation, deleteTodo }) {
         useNativeDriver
         animation="bounceInLeft"
       >
-        <ButtonComponent
-          iconName="keyboard-arrow-left"
-          iconSize={59}
-          width={80}
-          height={80}
-          borderRadius={80}
-          iconColor="#fff"
-          labelColor="#fff"
-          center
-          onPress={() => goBack()}
-        />
+        <View style={{ marginTop: 78 }}>
+          <TouchableOpacity onPress={() => goBack()}>
+            <View>
+              <MaterialIcons
+                name="keyboard-arrow-left"
+                size={90}
+                color="#fff"
+              />
+            </View>
+          </TouchableOpacity>
+        </View>
       </Animatable.View>
     </View>
   );

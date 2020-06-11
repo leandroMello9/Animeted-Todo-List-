@@ -45,6 +45,7 @@ module.exports = {
       'no-console': 'off',
       'no-use-before-define': 'off',
       'import/no-extraneous-dependencies': 'off',
-      "import/no-unresolved": 'off'
+      "import/no-unresolved": 'off',
+      "no-shadow": 'off'
     },
   };

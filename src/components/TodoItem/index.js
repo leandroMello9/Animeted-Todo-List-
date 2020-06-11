@@ -1,10 +1,14 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { MaterialIcons } from '@expo/vector-icons';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { isFavority } from '../../store/todo/actions';
 // import { Container } from './styles';
 
-export default function TodoItem({ item, navigation }) {
+function TodoItem({ item, navigation, isFavority }) {
   const { todo } = item;
+
   return (
     <TouchableOpacity
       onPress={() => navigation.navigate('InfoItem', { item })}
@@ -21,7 +25,9 @@ export default function TodoItem({ item, navigation }) {
         </Text>
       </View>
       <TouchableOpacity
-        onPress={() => {}}
+        onPress={() => {
+          isFavority(todo);
+        }}
         style={{
           borderWidth: 4,
           width: 30,
@@ -31,11 +37,17 @@ export default function TodoItem({ item, navigation }) {
         }}
       >
         <View style={{ alignSelf: 'center' }}>
-          {todo.status ? (
-            <MaterialIcons name="check" size={22} color="#98FB98" />
-          ) : null}
+          <MaterialIcons
+            name="check"
+            size={22}
+            color={todo.status ? '#98FB98' : '#eee'}
+          />
         </View>
       </TouchableOpacity>
     </TouchableOpacity>
   );
 }
+const mapStateToProps = (state) => ({});
+const mapDispatchToProps = (dispatch) =>
+  bindActionCreators({ isFavority }, dispatch);
+export default connect(mapStateToProps, mapDispatchToProps)(TodoItem);
