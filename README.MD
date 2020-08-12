@@ -9,8 +9,8 @@ Com o adicional de algumas animações.
 <p>:love_letter:&nbsp npm i ou npm install</p>
 <br/>
 <h2>Iniciando o projeto</h2>
-<p>:left_right_arrow: yarn start</p>
-<p>:left_right_arrow: npm start</p>
+<p>:left_right_arrow: yarn start <img align="center" width="20" heigth="20" src="https://ik.imagekit.io/jbqhfxwn5t/67b2a9ba5e85822f237caae92111e938_PdQzdLmdkJ.gif"></p>
+<p>:left_right_arrow: npm start <img align="center" width="20" heigth="20" src="https://ik.imagekit.io/jbqhfxwn5t/67b2a9ba5e85822f237caae92111e938_PdQzdLmdkJ.gif"></p>
 <br/>
 <br/> <h1>Listagem de Todos</h1> <br/>
 
