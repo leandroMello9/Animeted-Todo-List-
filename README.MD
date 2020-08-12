@@ -4,6 +4,10 @@ Uma lista de tarefas desenvolvida com react native, aplicando a nova api do Reac
 
 Com o adicional de algumas animações.
 <br/>
+<h2>Instalando dependências do Projeto.</h2>
+<p>yarn</p>
+<p>npm i ou npm install</p>
+<br/>
 <h2>Iniciando o projeto</h2>
 <p>:left_right_arrow: yarn start</p>
 <p>:left_right_arrow: npm start</p>
@@ -17,4 +21,4 @@ Com o adicional de algumas animações.
  ![Alt text](read-me/detalhes.gif?raw=true "Title")
 
 <h1>Edição do Todo selecionado</h1 <br/>
- ![Alt text](read-me/edicao.gif?raw=true "Title")
+![Alt text](read-me/edicao.gif?raw=true "Title")
