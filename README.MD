@@ -8,7 +8,7 @@ Com o adicional de algumas animações.
 <p>:left_right_arrow: yarn start</p>
 <p>:left_right_arrow: npm start</p>
 <br/>
-<br/> -- Listagem <br/>
+<br/> <h1>Listagem</h1> <br/>
 
 ![Alt text](read-me/list.gif?raw=true "Title")
 
