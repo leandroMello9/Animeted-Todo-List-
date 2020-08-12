@@ -8,13 +8,13 @@ Com o adicional de algumas animações.
 <p>:left_right_arrow: yarn start</p>
 <p>:left_right_arrow: npm start</p>
 <br/>
-<br/> <h1>Listagem</h1> <br/>
+<br/> <h1>Listagem de Todos</h1> <br/>
 
 ![Alt text](read-me/list.gif?raw=true "Title")
 
--- Detalhes
+<h1>Detalhes do Todo selecionado</h1
 
  ![Alt text](read-me/detalhes.gif?raw=true "Title")
 
--- Edição <br/>
+<h1>Edição do Todo selecionado</h1 <br/>
  ![Alt text](read-me/edicao.gif?raw=true "Title")
