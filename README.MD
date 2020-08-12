@@ -9,10 +9,10 @@ Com o adicional de algumas animações.
 <p>:love_letter:&nbsp npm i ou npm install</p>
 <br/>
 <h2>Iniciando o projeto</h2>
-<p><img align="center" width="30" heigth="30" src="https://ik.imagekit.io/jbqhfxwn5t/67b2a9ba5e85822f237caae92111e938_PdQzdLmdkJ.gif"> yarn start</p>
-<p><img align="center" width="30" heigth="30" src="https://ik.imagekit.io/jbqhfxwn5t/67b2a9ba5e85822f237caae92111e938_PdQzdLmdkJ.gif"> npm start</p>
+<p><img align="center" width="50" heigth="50" src="https://ik.imagekit.io/jbqhfxwn5t/67b2a9ba5e85822f237caae92111e938_PdQzdLmdkJ.gif"> yarn start</p>
+<p><img align="center" width="50" heigth="50" src="https://ik.imagekit.io/jbqhfxwn5t/67b2a9ba5e85822f237caae92111e938_PdQzdLmdkJ.gif"> npm start</p>
 <br/>
-<br/> <h1>Listagem de Todos</h1> <br/>
+<h1>Listagem de Todos</h1> <br/>
 
 ![Alt text](read-me/list.gif?raw=true "Title")
 
