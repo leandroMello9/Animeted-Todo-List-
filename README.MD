@@ -11,5 +11,5 @@ Com o adicional de algumas animações.
 
  ![Alt text](read-me/detalhes.gif?raw=true "Title")
 
--- Edição 
+-- Edição <br/>
  ![Alt text](read-me/edicao.gif?raw=true "Title")
