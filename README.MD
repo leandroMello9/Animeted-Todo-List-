@@ -5,8 +5,8 @@ Uma lista de tarefas desenvolvida com react native, aplicando a nova api do Reac
 Com o adicional de algumas animações.
 <br/>
 <h2>Instalando dependências do Projeto.</h2>
-<p>yarn</p>
-<p>npm i ou npm install</p>
+<p>:love_letter:&nbsp yarn</p>
+<p>:love_letter:&nbsp npm i ou npm install</p>
 <br/>
 <h2>Iniciando o projeto</h2>
 <p>:left_right_arrow: yarn start</p>
