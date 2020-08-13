@@ -1,3 +1,9 @@
+
+<h1 align="center">
+  <img align="center" width="auto" src="https://i.ytimg.com/vi/Rl8kSCZoXEk/maxresdefault.jpg">
+</h1>
+
+
 - Lista de Taferas 
 
 Uma lista de tarefas desenvolvida com react native, aplicando a nova api do React (Hooks) e com a mais morderna biblioteca de gerenciamento de estado no react (Redux).
