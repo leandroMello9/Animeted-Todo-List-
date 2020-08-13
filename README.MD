@@ -21,4 +21,4 @@ Com o adicional de algumas animações.
  ![Alt text](read-me/detalhes.gif?raw=true "Title")
 
 <h1>Edição do Todo selecionado</h1 <br/>
-![Alt text](read-me/edicao.gif?raw=true "Title")
+<img align="center" width="50" heigth="50" src="https://ik.imagekit.io/jbqhfxwn5t/edicao_rifVRAhlAL.gif">
