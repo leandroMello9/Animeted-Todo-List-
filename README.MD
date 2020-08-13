@@ -14,6 +14,15 @@ Com o adicional de algumas animações.
 <p>:love_letter:&nbsp yarn</p>
 <p>:love_letter:&nbsp npm i ou npm install</p>
 <br/>
+<h1>Tecnologias</h1>
+:computer:&nbsp<strong>ReactNative</strong>  https://reactnative.dev/
+<br/>
+:computer:&nbsp<strong>Expo</strong> https://expo.io/
+<br/>
+:computer:&nbsp<strong>JavaScript</strong>  https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
+<br/>
+:computer:&nbsp<strong>Redux</strong>  https://redux.js.org/
+<br/>
 <h2>Iniciando o projeto</h2>
 <p>- <img align="center" width="50" heigth="50" src="https://ik.imagekit.io/jbqhfxwn5t/67b2a9ba5e85822f237caae92111e938_PdQzdLmdkJ.gif"> yarn start</p>
 <p>- <img align="center" width="50" heigth="50" src="https://ik.imagekit.io/jbqhfxwn5t/67b2a9ba5e85822f237caae92111e938_PdQzdLmdkJ.gif"> npm start</p>
